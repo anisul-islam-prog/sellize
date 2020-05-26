@@ -127,3 +127,14 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Accept these files in the repository
+!.gitignore
+!.travis.yml
+/.env
+/.vscode
+
+#venv
+/Scripts
+/bin
+pyvenv.cfg
