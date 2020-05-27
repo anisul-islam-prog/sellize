@@ -10,11 +10,15 @@ After Cloning the repo:
 
 > Unix Based OS :
 
-`virtualenv venv`
+```
+virtualenv venv
+```
 
 > Windows :
 
-`python -m venv c:\path\to\myenv`
+```
+python -m venv c:\path\to\myenv
+```
 
 ### Activate the environment:
 
@@ -26,42 +30,60 @@ Command to activate virtual environment
 
 > bash/zsh
 
-`$ source <venv>/bin/activate`
+```
+$ source <venv>/bin/activate
+```
 
 > fish
 
-`$ . <venv>/bin/activate.fish`
+```
+$ . <venv>/bin/activate.fish
+```
 
 > csh/tcsh
 
-`$ source <venv>/bin/activate.csh`
+```
+$ source <venv>/bin/activate.csh
+```
 
 > PowerShell Core
 
-`$ <venv>/bin/Activate.ps1`
+```
+$ <venv>/bin/Activate.ps1
+```
 
 #### Windows
 
 > cmd.exe
 
-`<venv>\Scripts\activate.bat`
+```
+<venv>\Scripts\activate.bat
+```
 
 > PowerShell
 
-`<venv>\Scripts\Activate.ps1`
+```
+<venv>\Scripts\Activate.ps1
+```
 
 ### Installing Dependencies:
 
 After activating virtual environment run the following command to install dependencies.
 
-`pip install -r requirements.txt`
+```
+pip install -r requirements.txt
+```
 
 After successful installation run the following command:
 
-`python manage.py migrate`
+```
+python manage.py migrate
+```
 
 ## How to run:
 
 For running the server use the following command:
 
-`python manage.py runserver`
+```
+python manage.py runserver
+```
