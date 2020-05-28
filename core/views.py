@@ -3,8 +3,16 @@ from .models import Item
 # Create your views here.
 
 
-def item_list(request):
+def products(request):
     context = {
         'items': Item.objects.all()
     }
-    return render(request, 'home-page.html', context)
+    return render(request, 'products.html', context)
+
+
+def home(request):
+    return render(request, 'home.html')
+
+
+def checkout(request):
+    return render(request, 'checkout.html')
